@@ -11,9 +11,9 @@ public class RabbitMQUtils {
 
 	private static ConnectionFactory connectionFactory = new ConnectionFactory();
 	private static Connection connection = null;
-	private static String host = "192.168.11.140";
+	private static String host = "192.168.11.138";
 	private static int port = 5672;
-	private static String virtualHost = "rabbitmq";
+	private static String virtualHost = "rabbitmq.helloworld";
 	private static String username = "helloworld";
 	private static String password = "helloworld";
 

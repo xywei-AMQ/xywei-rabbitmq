@@ -24,7 +24,7 @@ public class Consumer1 {
 					throws IOException {
 				System.out.println("consumer1收到消息, " + new String(body));
 				try {
-					Thread.sleep(5000);
+					Thread.sleep(10);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
